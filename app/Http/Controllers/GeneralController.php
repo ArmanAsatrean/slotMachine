@@ -10,8 +10,10 @@ class GeneralController extends Controller
         return view('slot');
     }
 
-    public function sloter(){
-        return view('sloter');
+    public function result(Request $request){
+        // DB::table('results')->insert([
+        //     ['slot' => $request->res1 . ' ' . $request->res2 . ' ' . $request->res3],
+        // ]);
     }
 
 }

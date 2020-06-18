@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'GeneralController@index');
+Route::post('/', 'GeneralController@result');
